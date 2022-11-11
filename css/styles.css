@@ -733,7 +733,7 @@ left: 12px;
 .form-row-input.comment:hover,
 .form-row-input.comment:focus{
   border-color: var(--accent-color);
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
 }
 .input-form:hover .form-row-input,
 .input-form:focus-within .form-row-input{
