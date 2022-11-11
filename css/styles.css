@@ -801,6 +801,10 @@ left: 12px;
 /* .checked:checked:focus + .checkbox{
 background-image: url(../img/check_border_tab.svg);
 } */
+.checked:focus + .checkbox{
+  outline: 2px solid var(--accent-color);
+  border-radius: 2px;
+}
 .privacy {
   /* padding: 20px 11px 30px 14px; */
   display: flex;
